@@ -7,7 +7,7 @@
 
 ```lua
 local Params = {
- RepoURL = "https://raw.githubusercontent.com/luau/UniversalSynSaveInstance/main/",
+ RepoURL = "https://raw.githubusercontent.com/FokusDotId/Instance/main/",
  SSI = "saveinstance",
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
@@ -24,7 +24,7 @@ Reason: Many Executors fail miserably at providing good user experience when it 
 > As stated under the Section 7 (b) in the LICENSE:
 > - You **MUST** always include the following Credit string: `UniversalSynSaveInstance https://discord.gg/wx4ThpAsmw`
 > - You are **NOT** allowed to claim authorship of the source code provided in this repository
-> - You **MUST** always include the following [License](https://github.com/luau/UniversalSynSaveInstance/blob/main/LICENSE)
+> - You **MUST** always include the following [License](https://github.com/FokusDotId/Instance/blob/main/LICENSE)
 
 > [!TIP]
 > Important part about this saveinstance is that it doesn't modify anything, therefore reduces the amount of detection vectors by a lot.<br />

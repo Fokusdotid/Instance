@@ -2208,7 +2208,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 	local StatusText
 
 	local OPTIONS = {
-		mode = "optimized",
+		mode = "full", -- default: optimized
 		noscripts = false,
 		scriptcache = true,
 		-- decomptype = "",
